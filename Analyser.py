@@ -143,7 +143,7 @@ def load_pages( resources_list_path , url_list_path , local_html_filepath = '' ,
     #保存分词结果
     save_index( word_dict )
 
-
+#我在这里做了一个修改 2016年04月01日11:13:27
 #初始化
 segmenter = init( STOP_WORDS_PATH )
 #加载文件
